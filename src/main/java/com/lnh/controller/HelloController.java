@@ -15,4 +15,10 @@ public class HelloController {
     {
         return "Hello World!";
     }
+
+    @RequestMapping("/test")
+    public String test()
+    {
+        return "test";
+    }
 }
