@@ -17,8 +17,12 @@ public class HelloController {
     }
 
     @RequestMapping("/test2")
-    public String test2()
-    {
+    public String test2() {
         return "test2";
+    }
+    @RequestMapping("/test")
+    public String test()
+    {
+        return "test";
     }
 }
