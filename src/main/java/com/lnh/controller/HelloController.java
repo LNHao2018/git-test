@@ -25,4 +25,10 @@ public class HelloController {
     {
         return "test";
     }
+
+    @RequestMapping("/sayHello1")
+    public String sayHello1()
+    {
+        return "Hello World 1 !";
+    }
 }
