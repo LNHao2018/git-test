@@ -31,4 +31,10 @@ public class HelloController {
     {
         return "Hello World 1 !";
     }
+
+    @RequestMapping("/branch1")
+    public String branch1()
+    {
+        return "branch1";
+    }
 }
